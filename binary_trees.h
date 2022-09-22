@@ -17,7 +17,7 @@
  *
  */
 
-typedef struct binary_tree_s 
+typedef struct binary_tree_s
 {
 	int n;
 	struct binary_tree_s *parent;
