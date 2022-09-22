@@ -8,7 +8,7 @@
 /**
  * struct binary_tree_s - binary tree definition
  * @n: integer
- * @root: points to the root node
+ * @parent: points to the root node
  * @left: points to the left child
  * @right: points to the right child
  *
@@ -19,7 +19,7 @@
 typedef struct binary_tree_s 
 {
 	int n;
-	binary_tree_s *root;
+	binary_tree_s *parent;
 	binary_tree_s *left;
 	binary_tree_s *right;
 
