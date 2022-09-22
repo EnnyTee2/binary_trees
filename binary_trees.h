@@ -18,9 +18,9 @@
 typedef struct binary_tree_s 
 {
 	int n;
-	binary_tree_s *parent;
-	binary_tree_s *left;
-	binary_tree_s *right;
+	struct binary_tree_s *parent;
+	struct binary_tree_s *left;
+	struct binary_tree_s *right;
 
 } binary_tree_t;
 
