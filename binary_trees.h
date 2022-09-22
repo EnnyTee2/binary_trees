@@ -6,12 +6,13 @@
 #include <stddef.h>
 
 /**
- * struct binary_tree_s - doubly linked list
+ * struct binary_tree_s - binary tree definition
  * @n: integer
- * @prev: points to the previous node
- * @next: points to the next node
+ * @root: points to the root node
+ * @left: points to the left child
+ * @right: points to the right child
  *
- * Description: doubly linked list node structure
+ * Description: binary tree node structure
  *
  */
 
