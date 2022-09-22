@@ -5,8 +5,8 @@
  * @value: integer to store in node
  * @parent: points to the parent of the new node
  *
- * Returns: NULL if the creation fails
- *		new node pointer if it succeeds
+ * Return: NULL - if the creation fails
+ *	    New node pointer if it succeeds
  *
  */
 
@@ -18,9 +18,11 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	if (new_node == NULL)
 		/* if malloc is not successful*/
 		return (NULL);
+
 	new_node->parent = parent;
 	new_node->n = value;
 	new_node->left = NULL;
 	new_node->right = NULL;
+
 	return (new_node);
 }
