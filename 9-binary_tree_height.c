@@ -4,7 +4,7 @@
  * binary_tree_height - Checks the height of the binary tree
  * @tree: A pointer to the root node of the tree.
  *
- * return: 0 - if tree is NULL
+ * Return: 0 - if tree is NULL
  *	   size_t - height of the tree
  */
 
