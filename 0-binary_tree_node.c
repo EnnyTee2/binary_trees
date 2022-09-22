@@ -2,13 +2,12 @@
 #include "binary_trees.h"
 
 /**
- * struct binary_tree_s - binary tree definition
- * @n: integer
- * @root: points to the root node
- * @left: points to the left child
- * @right: points to the right child
+ * binary_tree_node - function to create new node
+ * @value: integer to store in node
+ * @parent: points to the parent of the new node
  *
- * Description: binary tree node structure
+ * Returns: NULL if the creation fails
+ *		new node pointer if it succeeds
  *
  */
 
@@ -24,4 +23,5 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	new_node->n = value;
 	new_node->left = NULL;
 	new_node->right = NULL;
+	return (new_node);
 }
